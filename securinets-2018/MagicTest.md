@@ -69,5 +69,9 @@ var priority = Math.pow(2, getAsciiCode("HorseEgg") + getTimestamp("1001-01-01")
 console.log(priority);
 //Output: NaN
 ```
-
-Filling in `HorseEgg` as name and `1001-01-01` as birthday on the webpage we get the flag: `Flag{PhP_H4s_seCuriTY_issues_THEY-Said!!!}`
+Using a date before 1970-01-01 will result in a negative value for the Timestamp, which will be concatenated to the result of the getAsciiCode function. This this _beautifully_ ends up as:
+``` javascript
+getAsciiCode("HorseEgg") + getTimestamp("1001-01-01")
+//output: "7211111411510169103103-30578688000"
+```
+Since `Math.pow(2, "7211111411510169103103-30578688000")` results in `NaN`, we get the flag:  `Flag{PhP_H4s_seCuriTY_issues_THEY-Said!!!}`
