@@ -98,7 +98,7 @@ Okay... i have to do what to the TIFF? Let's just open the TIFF and see.
 
 ### the qr_ps.tif
 Opening the TIFF file shows us this partial qr code:
-![Partial qr code](https://github.com/DancingSimpletons/writeups/blob/master/securinets-2018/qr_ps-tif.png)
+![Partial qr code](https://raw.githubusercontent.com/DancingSimpletons/writeups/master/securinets-2018/qr_ps-tif.png)
 
 Hmm, I think this qr code is beyond saving. So let's just look at the file, maybe there is something besides the image itself.
 
@@ -192,7 +192,7 @@ Alright, a password. Let's try it on the secret.zip we have :)
 ### secret.zip, revisited
 Using the string `0xNOX**` as the password for secret.zip, we get another image. This displays the second half of the flag in plain text:
 
-![second half of flag](https://github.com/DancingSimpletons/writeups/blob/master/securinets-2018/export.png)
+![second half of flag](https://raw.githubusercontent.com/DancingSimpletons/writeups/master/securinets-2018/export.png)
 
 Making the total flag `Flag{M33t_M3_1n_tHe_p4RK_T0mOrrOW}`.
 
