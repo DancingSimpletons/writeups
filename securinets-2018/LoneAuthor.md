@@ -192,7 +192,7 @@ Alright, a password. Let's try it on the secret.zip we have :)
 ### secret.zip, revisited
 Using the string `0xNOX**` as the password for secret.zip, we get another image. This displays the second half of the flag in plain text:
 
-!{second half of flag}(https://github.com/DancingSimpletons/writeups/blob/master/securinets-2018/export.png)
+![second half of flag](https://github.com/DancingSimpletons/writeups/blob/master/securinets-2018/export.png)
 
 Making the total flag `Flag{M33t_M3_1n_tHe_p4RK_T0mOrrOW}`.
 
