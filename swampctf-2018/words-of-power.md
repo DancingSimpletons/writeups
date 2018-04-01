@@ -58,4 +58,5 @@ plt.plot(lng, lat, ".")
 ```
 
 and find the flag:
+
 ![flag](https://github.com/DancingSimpletons/writeups/blob/master/swampctf-2018/words-of-power.png)
