@@ -17,6 +17,7 @@ Might as well watch the video to see if there's anything obvious. Around 2:20 in
 To extract the audio from the mp4, we can run the following: `ffmpeg -i OldFavorites.mp4 OldFavorites.wav`
 
 We need it as a *wav* file so we can open it with Sonic Visualiser and/or Audacity and check what's going on. So let's open it up and see what we can see around 2:20 in the audio. With these kind of challenges there's often something in the spectrogram, so we will first view that.
+
 ![spectrogram](https://github.com/DancingSimpletons/writeups/blob/master/sunshinectf-2018/spectrogram.PNG)
 
 Well, there it is `sun{you_know_the_rules}`
